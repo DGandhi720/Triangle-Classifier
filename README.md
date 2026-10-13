@@ -23,6 +23,9 @@ Question: An equilateral triangle can never also be right — explain why, in on
 An equilateral triangle has three 60° angles. A right triangle has a 90° angle, so because of that, an equilateral is incapable of being a right triangle.
 
 
+
+(Note about the review log, the formatting may be messed up, so the cleanest edition of it may be best reviewed in the codespace, or the file itself. Apologies, and please do this for the best coherence)
+
 ## Copilot Review Log               Co-pilot Suggested          Kept, Edited, Rejected      Why
                                                                                    
 test_invalid_nonpositive_sides           Yes                    Kept            
