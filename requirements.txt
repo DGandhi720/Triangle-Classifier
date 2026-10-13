@@ -1,0 +1,7 @@
+"We run a stained-glass studio. Customers enter three side lengths and we tell them the shape and whether it’s buildable. If it’s not a valid triangle, show a message, don’t crash. Also flag right-angle pieces — they need reinforced corners. It has to be correct every time; a wrong answer means a ruined pane."
+
+
+## CustomerRequirements
+1. The first part of the program involves determining if the three sides, inputted by customers are able to be built. 
+2. If they don't meet the requirements or satisfy what's needed for the program, the program shouldn't produce a crash, but rather just produce a message.
+3. Right Angle pieces have to be flagged, as they require special necessities. If they aren't, then its equivalent to a ruined pane. 
