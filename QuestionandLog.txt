@@ -1,0 +1,16 @@
+Question: An equilateral triangle can never also be right — explain why, in one or two sentences, in your README.
+
+An equilateral triangle can never be right, because a right angle will always contain one 90 degree angle, and as a result, all sides will not be proper to equal 180. An equilateral triangle will always have 3 sides equal to 180 degrees, with a 3x60 format.
+
+
+## Copilot Review Log               Co-pilot Suggested          Kept, Edited, Rejected      Why
+                                                                                   
+test_invalid_nonpositive_sides           Yes                    Kept            
+test_invalid_degenerate_boundary         Yes                    Kept                
+test_equilateral_triangle                Yes                    Kept
+test_isosceles_triangle                  Yes                    Kept
+test_scalene_triangle                    Yes                    Kept
+test_right_scalene_triangle              Yes                   Edited          Edited to include checks the Pythagorean theorem with math.isclose()
+test_right_isosceles_with_noninteger_sides Yes                 Edited          Edited to include checks with math.isclose()
+test_right_angle_check_uses_tolerance    Yes                   Edited          Edited to include checks with math.isclose()
+test_non_finite_side_is_invalid          Yes                    Kept
